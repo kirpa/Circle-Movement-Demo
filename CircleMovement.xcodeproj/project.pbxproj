@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD72C0F216E44489007FCF79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD72C0F116E44489007FCF79 /* QuartzCore.framework */; };
 		DDFF1F2A16E42F0D0043D0D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFF1F2916E42F0D0043D0D6 /* UIKit.framework */; };
 		DDFF1F2C16E42F0D0043D0D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFF1F2B16E42F0D0043D0D6 /* Foundation.framework */; };
 		DDFF1F2E16E42F0D0043D0D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFF1F2D16E42F0D0043D0D6 /* CoreGraphics.framework */; };
@@ -19,9 +20,12 @@
 		DDFF1F4316E42F0D0043D0D6 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF1F4216E42F0D0043D0D6 /* CMViewController.m */; };
 		DDFF1F4616E42F0D0043D0D6 /* CMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFF1F4416E42F0D0043D0D6 /* CMViewController_iPhone.xib */; };
 		DDFF1F4916E42F0D0043D0D6 /* CMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFF1F4716E42F0D0043D0D6 /* CMViewController_iPad.xib */; };
+		DDFF1F5016E430EC0043D0D6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF1F4F16E430EC0043D0D6 /* image.png */; };
+		DDFF1F5316E434B00043D0D6 /* PathDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF1F5216E434B00043D0D6 /* PathDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD72C0F116E44489007FCF79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DDFF1F2616E42F0D0043D0D6 /* CircleMovement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleMovement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFF1F2916E42F0D0043D0D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDFF1F2B16E42F0D0043D0D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +43,9 @@
 		DDFF1F4216E42F0D0043D0D6 /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
 		DDFF1F4516E42F0D0043D0D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMViewController_iPhone.xib; sourceTree = "<group>"; };
 		DDFF1F4816E42F0D0043D0D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMViewController_iPad.xib; sourceTree = "<group>"; };
+		DDFF1F4F16E430EC0043D0D6 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		DDFF1F5116E434B00043D0D6 /* PathDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDrawingView.h; sourceTree = "<group>"; };
+		DDFF1F5216E434B00043D0D6 /* PathDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD72C0F216E44489007FCF79 /* QuartzCore.framework in Frameworks */,
 				DDFF1F2A16E42F0D0043D0D6 /* UIKit.framework in Frameworks */,
 				DDFF1F2C16E42F0D0043D0D6 /* Foundation.framework in Frameworks */,
 				DDFF1F2E16E42F0D0043D0D6 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +83,7 @@
 		DDFF1F2816E42F0D0043D0D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD72C0F116E44489007FCF79 /* QuartzCore.framework */,
 				DDFF1F2916E42F0D0043D0D6 /* UIKit.framework */,
 				DDFF1F2B16E42F0D0043D0D6 /* Foundation.framework */,
 				DDFF1F2D16E42F0D0043D0D6 /* CoreGraphics.framework */,
@@ -85,6 +94,8 @@
 		DDFF1F2F16E42F0D0043D0D6 /* CircleMovement */ = {
 			isa = PBXGroup;
 			children = (
+				DDFF1F5116E434B00043D0D6 /* PathDrawingView.h */,
+				DDFF1F5216E434B00043D0D6 /* PathDrawingView.m */,
 				DDFF1F3816E42F0D0043D0D6 /* CMAppDelegate.h */,
 				DDFF1F3916E42F0D0043D0D6 /* CMAppDelegate.m */,
 				DDFF1F4116E42F0D0043D0D6 /* CMViewController.h */,
@@ -106,6 +117,7 @@
 				DDFF1F3B16E42F0D0043D0D6 /* Default.png */,
 				DDFF1F3D16E42F0D0043D0D6 /* Default@2x.png */,
 				DDFF1F3F16E42F0D0043D0D6 /* Default-568h@2x.png */,
+				DDFF1F4F16E430EC0043D0D6 /* image.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +180,7 @@
 				DDFF1F4016E42F0D0043D0D6 /* Default-568h@2x.png in Resources */,
 				DDFF1F4616E42F0D0043D0D6 /* CMViewController_iPhone.xib in Resources */,
 				DDFF1F4916E42F0D0043D0D6 /* CMViewController_iPad.xib in Resources */,
+				DDFF1F5016E430EC0043D0D6 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +194,7 @@
 				DDFF1F3616E42F0D0043D0D6 /* main.m in Sources */,
 				DDFF1F3A16E42F0D0043D0D6 /* CMAppDelegate.m in Sources */,
 				DDFF1F4316E42F0D0043D0D6 /* CMViewController.m in Sources */,
+				DDFF1F5316E434B00043D0D6 /* PathDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +252,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -262,7 +276,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +325,7 @@
 				DDFF1F4E16E42F0D0043D0D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,14 @@
-//
-//  CMViewController.h
-//  CircleMovement
-//
-//  Created by Vadim on 3/4/13.
-//  Copyright (c) 2013 Vadim. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
+@class PathDrawingView;
+
 @interface CMViewController : UIViewController
+{
+    UIImageView     *_image;
+    BOOL            _isAnimating;
+    BOOL            _drawPath;
+}
+
+@property (retain, nonatomic) PathDrawingView *pathView;
 
 @end
